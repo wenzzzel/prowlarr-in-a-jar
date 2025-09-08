@@ -1,5 +1,5 @@
 # Use the official LinuxServer Prowlarr image
-FROM lscr.io/linuxserver/prowlarr:version-1.36.3.5071
+FROM lscr.io/linuxserver/prowlarr:version-1.37.0.5076
 
 RUN apk add --update --no-cache sshpass
 RUN apk add --update --no-cache openssh
